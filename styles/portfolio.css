@@ -175,37 +175,67 @@ main section {
 .resume-collum-title {
     color: #474747;
     font-size: 30px;
-    font-weight: 700; 
+    font-weight: 700;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 50px;
 }
 
-.resume-item-institution{
+.resume-item-institution {
     color: #474747;
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575;
     margin-top: 0px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.resume-item-title{
+
+.resume-item-title {
     margin-bottom: 10px;
 
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer styele */
-footer{
+footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 230px;
 }
+
+.footer-column {
+    width: 50%;
+}
+.social-link a{
+margin-right: 25px;
+}
+.social-link{
+    margin-left: 230px;
+}
+contact input[type="text"], input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0;
+    background: #FFF);
+    width: 100%;
+    
+
+}
+
